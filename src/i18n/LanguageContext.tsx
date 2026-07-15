@@ -6,14 +6,14 @@ type Dict = Record<string, string>;
 
 const ar: Dict = {
   tap_open: "اضغط لفتح الدعوة",
-  invite_to: "اللهم بارك لهما وبارك عليهما واجمع بينهما في خير",
+  invite_to: "اللهم بارك لهما وبارك عليهما واجمع بينهما في خيـر",
   invite_join: "في ليلة زاهية يضوي الفرح في عالي سماها",
   invite_day: "وبقلوب يملؤها الفرح وتغمرها السعادة",
   invite_with_love: "بصادق الود والمحبة تتـــشرف",
 word1: "السيدة ",
 word2: "السيدة ",
-mother_name1: "حصه الدعيع",
-mother_name2: "حـمـدة العلوان ",
+mother_name1: "حصة الدعيع",
+mother_name2: "حمـدة العلوان ",
   invite_attend: "بدعوتكم لحضور حفل زواج ",
 invite_before_bride: "إبننا",
 invite_before_bride_2: "إبنتنا",
