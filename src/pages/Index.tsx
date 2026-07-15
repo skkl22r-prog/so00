@@ -102,7 +102,7 @@ border: "1px solid rgba(75,39,55,.18)",
               >
                 <iframe
                   title="Venue"
-                  src="https://www.google.com/maps?q=قاعة+شهرزاد+الطائف&output=embed"
+src="https://www.google.com/maps?q=قصر+النخيل+للاحتفالات+والمؤتمرات+حائل&output=embed"
                   width="100%"
                   height="320"
                   loading="lazy"
