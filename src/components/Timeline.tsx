@@ -5,8 +5,6 @@ const Timeline = () => {
   const { t } = useLang();
   const events = [
     { time: "8:00 PM", label: t("program_reception") },
-    { time: "2:00 AM", label: t("program_zaffa") },
-    { time: "2:30 AM", label: t("program_dinner") },
   ];
 
   return (
@@ -28,12 +26,12 @@ const Timeline = () => {
                 }}
               />
               <div className="grid grid-cols-2 w-full gap-8">
-                <div
+               <div
   className="text-right pr-10 font-display text-2xl"
   dir="ltr"
   style={{ color: "hsl(340 45% 35%)", textAlign: "right" }}
 >
-  {i === 0 ? e.time : ""}
+  {e.time}
 </div>
 <div
   className="text-right pr-10 font-tajawal text-2xl w-full"
