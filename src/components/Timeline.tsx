@@ -29,12 +29,12 @@ const Timeline = () => {
               />
               <div className="grid grid-cols-2 w-full gap-8">
                 <div
-                  className="text-right pr-10 font-display text-2xl"
-                  dir="ltr"
-                  style={{ color: "hsl(340 45% 35%)", textAlign: "right" }}
-                >
-                  {e.time}
-                </div>
+  className="text-right pr-10 font-display text-2xl"
+  dir="ltr"
+  style={{ color: "hsl(340 45% 35%)", textAlign: "right" }}
+>
+  {i === 0 ? e.time : ""}
+</div>
 <div
   className="text-right pr-10 font-tajawal text-2xl w-full"
   style={{ color: "hsl(340 40% 30%)" }}
