@@ -35,7 +35,7 @@ const Envelope = ({ onOpen }: EnvelopeProps) => {
             transition: "transform 2s cubic-bezier(0.65, 0, 0.35, 1) 0.08s",
             transform: opening ? "translateX(110%)" : "translateX(0)",
             background:
-  "linear-gradient(135deg, rgba(239,229,214,.88), rgba(217,198,180,.68))",
+  "linear-gradient(135deg, #755163, #4A3040)",
             backdropFilter: "blur(14px) saturate(140%)",
             WebkitBackdropFilter: "blur(14px) saturate(140%)",
             borderLeft: "1px solid hsla(0,0%,100%,0.45)",
@@ -84,7 +84,7 @@ const Envelope = ({ onOpen }: EnvelopeProps) => {
             transition: "transform 2s cubic-bezier(0.65, 0, 0.35, 1)",
             transform: opening ? "translateX(-110%)" : "translateX(0)",
             background:
-  "linear-gradient(225deg, rgba(239,229,214,.88), rgba(217,198,180,.68))",
+  "linear-gradient(135deg, #755163, #4A3040)",
             backdropFilter: "blur(14px) saturate(140%)",
             WebkitBackdropFilter: "blur(14px) saturate(140%)",
             borderRight: "1px solid hsla(0,0%,100%,0.45)",
