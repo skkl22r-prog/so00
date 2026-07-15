@@ -1,6 +1,6 @@
 import { useState } from "react";
 import swans from "@/assets/swans.jpg";
-import bowSeal from "@/assets/bow-seal.png";
+import bowSeal from "@/assets/93727BCE-8338-4BB2-85D4-CD7DD3D715B5.png";
 import { useLang } from "@/i18n/LanguageContext";
 
 interface EnvelopeProps {
