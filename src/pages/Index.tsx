@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { MapPin, Heart, Baby, Camera } from "lucide-react";
+import { MapPin, Heart, Baby, Camera, CircleOff } from "lucide-react";
 import Envelope from "@/components/Envelope";
 import SprayParticles from "@/components/SprayParticles";
 import Reveal from "@/components/Reveal";
@@ -136,9 +136,10 @@ src="https://www.google.com/maps?q=قصر+النخيل+للاحتفالات+وا
 
               <div className="space-y-6">
                 {[
-                  { icon: Baby, text: t("no_kids") },
-                  { icon: Camera, text: t("no_cameras") },
-                ].map((d, i) => (
+  { icon: Baby, text: t("no_kids") },
+  { icon: Camera, text: t("no_cameras") },
+  {{ icon: Ban, text: t("no_maghatir") },
+].map((d, i) => (
                   <Reveal key={i} delay={i * 120}>
                     <div className={`relative ${lang === "ar" ? "pr-16" : "pl-16"}`}>
                       <div
