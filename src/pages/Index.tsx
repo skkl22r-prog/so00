@@ -177,7 +177,7 @@ boxShadow: "0 6px 18px rgba(75,39,55,.12)",
             </div>
           </section>
 
-          <RSVP />
+{/* <RSVP /> */}
 
           {/* ✔️ السهمين (إضافة فقط) */}
           <div className={`scroll-indicator ${hideScroll ? "hide" : ""}`}>
