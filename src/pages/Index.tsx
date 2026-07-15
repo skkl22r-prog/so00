@@ -66,7 +66,7 @@ const Index = () => {
 
           <section className="px-4 py-16">
             <Reveal>
-              <h2 className="text-center font-tajawal text-3xl mb-10" style={{ color: "hsl(340 45% 30%)" }}>
+              <h2 className="text-center font-tajawal text-3xl mb-10" style={{ color: "#4B2737" }}>
                 {t("countdown_title")}
               </h2>
             </Reveal>
@@ -77,17 +77,17 @@ const Index = () => {
 
           <section className="px-4 py-16">
             <Reveal>
-              <h2 className="text-center font-tajawal text-3xl mb-8" style={{ color: "hsl(340 45% 30%)" }}>
+              <h2 className="text-center font-tajawal text-3xl mb-8" style={{ color: "#4B2737" }}>
                 {t("venue_title")}
               </h2>
             </Reveal>
             <Reveal delay={100}>
               <div className="text-center mb-6">
-                <MapPin className="mx-auto w-10 h-10 mb-3" style={{ color: "hsl(340 55% 55%)" }} />
-                <div className="font-tajawal text-2xl" style={{ color: "hsl(340 45% 30%)" }}>
+                <MapPin className="mx-auto w-10 h-10 mb-3" style={{ color: "#6E4658" }} />
+                <div className="font-tajawal text-2xl" style={{ color: "#4B2737" }}>
                   {t("venue_name")}
                 </div>
-                <div className="font-tajawal text-lg mt-1" style={{ color: "hsl(340 25% 45%)" }}>
+                <div className="font-tajawal text-lg mt-1" style={{ color: "#8A6A77" }}>
                   {t("venue_city")}
                 </div>
               </div>
@@ -98,7 +98,7 @@ const Index = () => {
                 className="max-w-2xl mx-auto rounded-2xl overflow-hidden"
                 style={{
                   boxShadow: "var(--shadow-soft)",
-                  border: "1.5px solid hsl(340 50% 75% / 0.5)",
+border: "1px solid rgba(75,39,55,.18)",
                 }}
               >
                 <iframe
@@ -115,7 +115,7 @@ const Index = () => {
 
           <section className="px-4 py-16">
             <Reveal>
-              <h2 className="text-center font-tajawal text-3xl mb-6" style={{ color: "hsl(340 45% 30%)" }}>
+              <h2 className="text-center font-tajawal text-3xl mb-6" style={{ color: "#4B2737" }}>
                 {t("program_title")}
               </h2>
             </Reveal>
@@ -124,7 +124,7 @@ const Index = () => {
 
           <section className="px-4 py-16">
             <Reveal>
-              <h2 className="text-center font-tajawal text-3xl mb-10" style={{ color: "hsl(340 45% 30%)" }}>
+              <h2 className="text-center font-tajawal text-3xl mb-10" style={{ color: "#4B2737" }}>
                 {t("details_title")}
               </h2>
             </Reveal>
@@ -132,7 +132,7 @@ const Index = () => {
             <div className="relative max-w-xl mx-auto">
               <div
                 className={`absolute top-6 bottom-6 ${lang === "ar" ? "right-6" : "left-6"} w-px`}
-                style={{ background: "hsl(340 50% 75% / 0.5)" }}
+                style={{ background: "rgba(75,39,55,.18)" }}
               />
 
               <div className="space-y-6">
@@ -145,30 +145,30 @@ const Index = () => {
                       <div
                         className={`absolute ${lang === "ar" ? "right-0" : "left-0"} top-1/2 -translate-y-1/2 w-12 h-12 rounded-full flex items-center justify-center z-10`}
                         style={{
-                          background: "hsl(345 60% 97%)",
-                          border: "2px solid hsl(340 55% 60%)",
-                          boxShadow: "0 0 14px hsl(340 55% 70% / 0.4)",
+                          background: "rgba(255,255,255,.88)",
+border: "2px solid #6E4658",
+boxShadow: "0 6px 18px rgba(75,39,55,.12)",
                         }}
                       >
-                        <span className="w-2 h-2 rounded-full" style={{ background: "hsl(340 55% 55%)" }} />
+                        <span className="w-2 h-2 rounded-full" style={{ background: "#6E4658" }} />
                       </div>
 
                       <div
                         className="rounded-xl px-6 py-5 backdrop-blur-md flex items-center justify-between gap-4"
                         style={{
-                          background: "hsla(345, 60%, 97%, 0.6)",
-                          border: "1.5px solid hsl(340 50% 75% / 0.5)",
+                          background: "rgba(255,255,255,.78)",
+                          border: "1px solid rgba(75,39,55,.18)",
                         }}
                       >
                         <span
                           className={`font-tajawal text-lg flex-1 ${
                             lang === "ar" ? "text-right" : "text-left"
                           }`}
-                          style={{ color: "hsl(340 40% 30%)" }}
+                         style={{ color: "#4B2737" }}
                         >
                           {d.text}
                         </span>
-                        <d.icon className="w-7 h-7 shrink-0" style={{ color: "hsl(340 55% 50%)" }} />
+                        <d.icon className="w-7 h-7 shrink-0" style={{ color: "#6E4658" }} />
                       </div>
                     </div>
                   </Reveal>
@@ -188,7 +188,7 @@ const Index = () => {
 
           <footer className="px-4 py-12 text-center">
             <Reveal>
-              <div className="flex items-center justify-center gap-2" style={{ color: "hsl(340 45% 35%)" }}>
+              <div className="flex items-center justify-center gap-2" style={{ color: "#6E4658" }}>
                 <Heart className="w-4 h-4 fill-current" />
                 <span className="font-tajawal text-sm">
                   {t("made_by")}{" "}
@@ -197,7 +197,7 @@ const Index = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="underline underline-offset-4"
-                    style={{ color: "hsl(340 55% 50%)" }}
+                    style={{ color: "#4B2737" }}
                   >
                     {t("store")}
                   </a>
