@@ -31,7 +31,9 @@ const SwanScene = () => {
                 "0 1px 2px hsla(0,0%,0%,0.6), 0 0 10px hsla(0,0%,100%,0.35), 0 0 22px hsla(0,0%,100%,0.2)",
             }}
           >
-            <div className="font-sarahhh1 text-lg sm:text-xl">{t("invite_to")}</div>
+<div className="font-sarahhh1 text-2xl sm:text-3xl">
+  {t("invite_to")}
+</div>
             <div className="font-tajawal text-lg sm:text-xl">{t("invite_join")}</div>
             <div className="font-tajawal text-lg sm:text-xl">{t("invite_day")}</div>
 
