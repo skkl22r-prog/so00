@@ -36,7 +36,6 @@ const Index = () => {
       className="relative min-h-screen overflow-x-hidden"
       dir={lang === "ar" ? "rtl" : "ltr"}
       style={{
-        background:
 background: "rgba(250, 247, 244, 0.45)",
       }}
     >
