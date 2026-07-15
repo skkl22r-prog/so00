@@ -183,7 +183,6 @@ boxShadow: "0 6px 18px rgba(75,39,55,.12)",
           <div className={`scroll-indicator ${hideScroll ? "hide" : ""}`}>
   <div className="scroll-text">اسحب للأسفل</div>
   <span className="arrow">⌄</span>
-  <span className="arrow">⌄</span>
 </div>
 
           <footer className="px-4 py-12 text-center">
