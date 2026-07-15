@@ -138,7 +138,7 @@ src="https://www.google.com/maps?q=قصر+النخيل+للاحتفالات+وا
                 {[
   { icon: Baby, text: t("no_kids") },
   { icon: Camera, text: t("no_cameras") },
-  {{ icon: Ban, text: t("no_maghatir") },
+  { icon: Ban, text: t("no_maghatir") },
 ].map((d, i) => (
                   <Reveal key={i} delay={i * 120}>
                     <div className={`relative ${lang === "ar" ? "pr-16" : "pl-16"}`}>
