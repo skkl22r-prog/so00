@@ -4,7 +4,7 @@ import { useLang } from "@/i18n/LanguageContext";
 const Timeline = () => {
   const { t } = useLang();
   const events = [
-    { time: "9:00 PM", label: t("program_reception") },
+    { time: "8:00 PM", label: t("program_reception") },
     { time: "2:00 AM", label: t("program_zaffa") },
     { time: "2:30 AM", label: t("program_dinner") },
   ];
