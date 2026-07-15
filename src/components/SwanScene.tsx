@@ -9,15 +9,11 @@ const SwanScene = () => {
         className="relative w-full mx-auto overflow-hidden"
         style={{ maxWidth: 480, aspectRatio: "9 / 16" }}
       >
-        <video
-          src="/sarah2.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="auto"
-          className="absolute inset-0 w-full h-full object-cover select-none"
-        />
+        <img
+  src="/3B7A8177-2B92-4DF5-B3F2-620C30916530.png"
+  alt=""
+  className="absolute inset-0 w-full h-full object-cover select-none"
+/>
 
         <div
           dir={lang === "ar" ? "rtl" : "ltr"}
