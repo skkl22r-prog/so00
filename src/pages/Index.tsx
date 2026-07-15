@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { MapPin, Heart, Baby, Camera, CircleOff } from "lucide-react";
+import { MapPin, Heart, Baby, Camera, Ban } from "lucide-react";
 import Envelope from "@/components/Envelope";
 import SprayParticles from "@/components/SprayParticles";
 import Reveal from "@/components/Reveal";
