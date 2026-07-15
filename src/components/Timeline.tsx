@@ -11,7 +11,7 @@ const Timeline = () => {
     <div className="relative max-w-2xl mx-auto py-8">
       <div
         className="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-px"
-        style={{ background: "hsl(340 35% 70% / 0.5)" }}
+style={{ background: "#6E4658" }}
       />
       <div className="space-y-16">
         {events.map((e, i) => (
@@ -20,22 +20,22 @@ const Timeline = () => {
               <div
                 className="absolute left-1/2 -translate-x-1/2 w-5 h-5 rounded-full z-10"
                 style={{
-                  background: "hsl(345 70% 96%)",
-                  border: "2px solid hsl(340 45% 55%)",
-                  boxShadow: "0 0 0 6px hsl(345 70% 96% / 0.5)",
+                  background: "#F8F2ED",
+border: "2px solid #6E4658",
+boxShadow: "0 0 0 6px rgba(110, 70, 88, 0.15)",
                 }}
               />
               <div className="grid grid-cols-2 w-full gap-8">
               <div
-  className="text-right pr-3 font-display text-2xl"
+  className="pl-10 font-display text-2xl"
   dir="ltr"
-  style={{ color: "#6E4658", textAlign: "right" }}
+  style={{ color: "#6E4658", textAlign: "left" }}
 >
   {e.time}
 </div>
 <div
   className="text-right pr-10 font-tajawal text-2xl w-full"
-  style={{ color: "hsl(340 40% 30%)" }}
+style={{ color: "#4B2737" }}
 >
                   {e.label}
                 </div>
