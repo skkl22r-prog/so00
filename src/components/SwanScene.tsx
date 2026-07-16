@@ -41,10 +41,12 @@ const SwanScene = () => {
               {t("invite_with_love")}
             </div>
 
+{/* 
 <div className="flex items-center justify-center gap-20 font-tajawal text-lg sm:text-xl mt-1">
   <span>{t("word1")}</span>
   <span>{t("word2")}</span>
 </div>
+*/}
 
           <div className="font-sarahhh1 text-4xl sm:text-5xl my-1 whitespace-nowrap flex justify-center items-center gap-8">
   <span>{t("mother_name1")}</span>
